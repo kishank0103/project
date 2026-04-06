@@ -2,14 +2,12 @@
 <html>
 
 <head>
-    
     <title>Kishan Kanara - Contact</title>
-
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 
 <body>
+
 
     <ul>
         <li><a href="./index.html">Home</a></li>
@@ -21,23 +19,30 @@
         <li><a href="./feedback.html">Feedback</a></li>
     </ul>
 
-    <div id="contact">
+    <div id="contact-box">
 
         <h1>Contact Us</h1>
 
-        <p>Fill out the form below to get in touch.</p>
+        <form>
 
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <label>Full Name:</label>
+            <input type="text">
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <label>Email Address:</label>
+            <input type="email">
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <label>Mobile Number:</label>
+            <input type="text">
+
+            <label>Gender</label><br>
+            <input type="radio" name="gender"> Male
+            <input type="radio" name="gender"> Female
+
+            <label>Message:</label>
+            <textarea rows="5"></textarea>
 
             <button type="submit">Send Message</button>
+
         </form>
 
     </div>
